@@ -100,10 +100,10 @@ In the advanced stage of the project, we focused on improving query performance 
   ```sql
   CREATE INDEX idx_artist_album ON spotify_data (artist, album);
   ```
-Query result before indexing : [Before Indexing](https://github.com/PranjaliD11/Spotify-Sql-Analysis/blob/main/BeforeQueryOptimization.png)
+Query result before indexing : ![Before Indexing](https://github.com/PranjaliD11/Spotify-Sql-Analysis/blob/main/BeforeQueryOptimization.png)
 
-After query optimization: [After Indexing](https://github.com/PranjaliD11/Spotify-Sql-Analysis/blob/main/BeforeQueryOptimization.png)
-Visualization of how indexing works: [Index](https://github.com/PranjaliD11/Spotify-Sql-Analysis/blob/main/ExplainationOfIndex.png)
+After query optimization: ![After Indexing](https://github.com/PranjaliD11/Spotify-Sql-Analysis/blob/main/BeforeQueryOptimization.png)
+Visualization of how indexing works: ![Index](https://github.com/PranjaliD11/Spotify-Sql-Analysis/blob/main/ExplainationOfIndex.png)
 
 ---
 ## **Conclusion**  

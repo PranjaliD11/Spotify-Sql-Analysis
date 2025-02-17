@@ -45,9 +45,9 @@ Once the data was loaded into the database, we divided the queries into three le
 #### **Medium Queries**  
 - **Calculate the Average Danceability for Each Album:**
   ```sql
- SELECT album,avg(danceability) as avg_danceability FROM spotify 
- GROUP BY 1 
- ORDER BY 2 DESC;```
+ 	SELECT album,avg(danceability) as avg_danceability FROM spotify 
+ 	GROUP BY 1 
+ 	ORDER BY 2 DESC;```
 - **Calculate Total Views for Tracks in Each Album:**
   ```sql
   SELECT album,track,sum(views) as total_views

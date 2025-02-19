@@ -91,7 +91,7 @@ Once the data was loaded into the database, we divided the queries into three le
 
 ## **3. Query Optimization**  
 
-In the advanced stage of the project, we focused on improving query performance by applying optimization strategies. Key strategies include:
+In the advanced stage of the project, we focused on improving query performance by applying optimization strategy like:
 
 ### **Indexing**  
 - **Add Index on Frequently Queried Columns:**  
